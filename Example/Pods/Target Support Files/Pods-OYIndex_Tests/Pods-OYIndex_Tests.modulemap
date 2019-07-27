@@ -1,0 +1,6 @@
+framework module Pods_OYIndex_Tests {
+  umbrella header "Pods-OYIndex_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

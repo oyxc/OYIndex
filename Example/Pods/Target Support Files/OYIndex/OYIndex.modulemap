@@ -1,0 +1,6 @@
+framework module OYIndex {
+  umbrella header "OYIndex-umbrella.h"
+
+  export *
+  module * { export * }
+}
