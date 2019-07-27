@@ -7,6 +7,8 @@
 //
 
 #import "OYViewController.h"
+#import <ZJHttps.h>
+#import <OYLogs.h>
 
 @interface OYViewController ()
 
@@ -17,7 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [ZJHttps log];
+    [OYLogs logs];
+
 }
 
 - (void)didReceiveMemoryWarning
