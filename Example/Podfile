@@ -5,6 +5,9 @@ platform :ios, '8.0'
 target 'OYIndex_Example' do
   pod 'OYIndex', :path => '../'
 
+  pod 'ZJNet'
+  
+  
   target 'OYIndex_Tests' do
     inherit! :search_paths
 

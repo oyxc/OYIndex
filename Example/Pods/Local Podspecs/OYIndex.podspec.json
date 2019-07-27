@@ -12,11 +12,16 @@
     "oyxc": "346215934@qq.com"
   },
   "source": {
-    "git": "https://github.com/3oyxc/OYIndex.git",
+    "git": "https://github.com/oyxc/OYIndex.git",
     "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "OYIndex/Classes/**/*"
+  "source_files": "OYIndex/Classes/**/*",
+  "dependencies": {
+    "ZJNet": [
+
+    ]
+  }
 }

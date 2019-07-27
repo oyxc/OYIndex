@@ -1,16 +1,24 @@
 PODS:
-  - OYIndex (1.0.0)
+  - OYIndex (1.0.0):
+    - ZJNet
+  - ZJNet (0.1.0)
 
 DEPENDENCIES:
   - OYIndex (from `../`)
+  - ZJNet
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZJNet
 
 EXTERNAL SOURCES:
   OYIndex:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OYIndex: 2d6dafd23a1a35955f0a7601aa9c2de64e6e7560
+  OYIndex: a67f7d9777707f35588f36c73f6e2761871d8ba3
+  ZJNet: ee683be323776469f8c522dc88b7a580d4b0ae87
 
-PODFILE CHECKSUM: 3310271588252614c2f8f3e5e95385ed398eff6f
+PODFILE CHECKSUM: da315e06b51e754b68194e11079589a1f40a7c54
 
 COCOAPODS: 1.7.4
